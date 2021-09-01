@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family:"Oswald";
+  src:url("/Oswald/static/Oswald-Regular.ttf");
+}
+nav {
+  width: 100%;
+  background-color: rgb(202, 202, 202);
+  position :fixed;
+  top :0;
+}
+nav ul{
+  list-style-type:none;
+  border : 0px solid blue;
+  padding:0;
+  margin : 0; 
+}
+ nav ul li,.block{
+   margin-left : 0; 
+  width : 15%; 
+  background-color:#07080a;
+  text-align : center;
+  margin-bottom : 0.3rem;
+  display :inline-block;
+}
+nav a,.textcolor{
+    font-weight: bold;
+    color : white;
+    text-decoration : none;
+    display : block; 
+    padding : 0.2rem; 
+}
+nav a:hover,.textcolor:hover{ 
+  background-color: white;
+  color:#0d0d0e; 
+}
+
+body {
+  background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+  font-family:"Oswald";
+  height: 100vh;
+}
+
+.card {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
