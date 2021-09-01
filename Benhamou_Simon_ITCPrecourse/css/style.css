@@ -2,8 +2,12 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family:"Oswald";
-  src:url("/Oswald/static/Oswald-Regular.ttf");
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v15/4iCv6KVjbNBYlgoC1CzjvWyNPYZvg7UI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 nav {
   width: 100%;
@@ -26,7 +30,7 @@ nav ul{
   display :inline-block;
 }
 nav a,.textcolor{
-    font-weight: bold;
+    font-weight: normal;
     color : white;
     text-decoration : none;
     display : block; 
@@ -39,7 +43,7 @@ nav a:hover,.textcolor:hover{
 
 body {
   background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
-  font-family:"Oswald";
+  font-family:'Ubuntu';
   height: 100vh;
 }
 
@@ -71,4 +75,29 @@ body {
   height: 180px;
   width: 180px;
 }
+h1 {
+  font-weight:normal;
+  margin : auto; 
+}
 
+p {
+  margin : 0.5rem; 
+}
+.block{
+  margin-left : 0; 
+ width : 1.5%; 
+ background-color:#07080a;
+ text-align : center;
+ margin-bottom : 0.3rem;
+ display :inline-block;
+}
+.textcolor{
+   font-weight: normal;
+   color : white;
+   text-decoration : none;
+   display : block; 
+   padding : 0.2rem; 
+}
+.textcolor:hover{ 
+ background-color: white;
+ color:#0d0d0e; 

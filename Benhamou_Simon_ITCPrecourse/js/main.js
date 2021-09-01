@@ -6,6 +6,6 @@ fetch(GITHUB_URL)
     return response.json();
   })
   .then(function (data) {
-    const profileImage = document.getElementById("profile-image");
+    const profileImage = document.getElementById("Simon profile-image");
     profileImage.src = data.avatar_url;
   });
