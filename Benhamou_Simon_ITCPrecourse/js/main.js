@@ -6,7 +6,7 @@ fetch(GITHUB_URL)
     return response.json();
   })
   .then(function (data) {
-    const profileImage = document.getElementById("profile-image");
+    const profileImage = document.getElementById("card-front");
     profileImage.src = data.avatar_url;
     const profileName = document.querySelector('#myName');
     profileName.innerHTML= data.name;

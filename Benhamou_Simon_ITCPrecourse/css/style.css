@@ -32,7 +32,7 @@
 nav {
   width: 100%;
   height: 2rem;
-  background-color: rgb(202, 202, 202);
+  background-color: white;
   position :fixed;
   top :0;
 }
@@ -40,24 +40,23 @@ nav {
   list-style-type:none;
   padding:0;
   margin: 0; 
+  border-bottom:1px solid #110066 ;
 }
  .navigationlistformat{
   width : 7%; 
-  background-color:#07080a;
   text-align : center;
   margin : 0.25rem 0 0.3rem 1rem; 
   display :inline-block;
 }
 .navigationbuttonformat,.textcolor{
     font-weight: normal;
-    color : white;
+    color : #110066;
     text-decoration : none;
     display : block; 
     padding : 0.2rem; 
 }
 .navigationbuttonformat:hover,.textcolor:hover{ 
-  background-color: white;
-  color:#0d0d0e; 
+  color: #90CBFB; 
 }
 
 body {
@@ -68,13 +67,13 @@ body {
 
 .card {
   align-items: center;
-  background-color: lightgray;
+  background-color: #C4EAF2;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 50px;
-  padding: 50px;
+  padding: 60px;
 }
 .nav-item {
   align-self: flex-end;
@@ -90,21 +89,18 @@ body {
 
 .profile-image {
   border-radius: 50%;
-  height: 180px;
+  height: 180px%;
   width: 180px;
 }
+
 .automargin{
   font-weight:normal;
   margin : auto; 
 }
 
-.smallmargin {
-  margin : 0.5rem; 
-}
 .block{
   margin-left : 0; 
  width : 2%; 
- background-color:#07080a;
  text-align : center;
  margin-bottom : 0.3rem;
  display :inline-block;
@@ -117,7 +113,15 @@ il{
 }
 .titlecenter{
   text-align:center;
+  margin : 3rem; 
+ font-weight:400; 
 }
+.othertitle{
+  margin-left: 1rem;
+  font-weight:400; 
+  font-size:x-large;
+}
+
 .paragraphwidth{
   width: 70%;
   text-align:center;
@@ -128,4 +132,52 @@ il{
   float:right;
   height: 400px;
   width: 300px;
+}
+.flipcardcontainer{
+  position: relative;
+  height: 170px;
+  width: auto;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 0.5s;
+}
+.flipcardcontainer:hover #card-front {
+  transform: rotateX(-180deg);
+}
+.flipcardcontainer:hover .card-back {
+  transform: rotateX(0deg);
+}
+
+#card-front {
+  height: 180px;
+  width: 180px;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+}
+
+.card-back {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  margin-top:-102%;
+  position: relative;
+  background-color: #f8f6f6;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+  color: #030303;
+  text-align: center;
+  padding: 15px 10px 5px 10px;
+}
+.description{
+  text-align: left;
+  font-size: 0.9rem;
+  width: 50%;
+}
+i{
+  margin-left: 0.5rem;
 }
