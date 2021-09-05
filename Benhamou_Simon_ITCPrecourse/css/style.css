@@ -202,18 +202,19 @@ i{
   height:2rem; 
   width: 50%; 
 }
-.buttonstyle,.prev,.next{
+.active{
   background-color: #90CBFB;
   color : white;
   width:7%;
   height: 3rem; 
   margin : 1rem -2rem 1rem 3rem; 
-  border-radius: 50%;
+  border-radius: 5%;
   border: 2px;
 }
-.buttonstyle:hover,.prev:hover,.next:hover{ 
+.active:hover{ 
   background-color: white; 
   color: #90CBFB;
+  border:1px solid #90CBFB;
 }
 #additional-info {
   font-family: 'Maven Pro';
@@ -238,3 +239,13 @@ i{
   font-style:italic;
   font-size:x-small;
 }
+.disabledbutton{
+  background-color: #9c9ea0;
+  color : white;
+  width:7%;
+  height: 3rem; 
+  margin : 1rem -2rem 1rem 3rem; 
+  border-radius: 5%;
+  border: 2px;
+}
+

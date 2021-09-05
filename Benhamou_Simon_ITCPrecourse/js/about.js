@@ -2,29 +2,51 @@ const currentmap = document.querySelector('#google-map');
 let count = 0; 
 function prev()
 {
-    if(count === 0)
-    {
-        document.getElementsByClassName(
-            'prev').disabled = true;
-        document.getElementsByClassName(
-            'next').disabled = false;
-    }
-    else {
+    var previous = document.getElementById("prev");
+    var next= document.getElementById("next");
+
+        previous.classList.add('active');
+        next.classList.add('active');
+        previous.classList.remove('disabledbutton');
+        next.classList.remove('disabledbutton');
+        next.disabled = false;
+        previous.disabled = false;
         count--;
         mapdisplay(count);
-    }
+
+         if(count === 0)
+            {
+            previous.disabled = true;
+            previous.classList.add('disabledbutton');
+            previous.classList.remove('active');
+
+            next.disabled = false;
+
+            }
 }
+
 function next()
 {
-    if(count === 2)
-    {
-    document.getElementsByClassName(
-        'prev').disabled = false;
-    document.getElementsByClassName(
-        'next').disabled = true;
-    }
-    else{
+    var previous = document.getElementById("prev");
+    var next= document.getElementById("next");
+
+        previous.classList.add('active');
+        next.classList.add('active');
+        previous.classList.remove('disabledbutton');
+        next.classList.remove('disabledbutton');
+        next.disabled = false;
+        previous.disabled = false;
+
         count++;
         mapdisplay(count);
-    }
+        if(count === 2)
+        {
+            previous.disabled = false;
+            
+            next.disabled = true;
+            next.classList.remove('active');
+            next.classList.add("disabledbutton");
+    
+        }
+    
 }
