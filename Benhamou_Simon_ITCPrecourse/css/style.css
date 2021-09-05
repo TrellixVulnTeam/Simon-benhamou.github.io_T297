@@ -117,6 +117,7 @@ il{
  font-weight:400; 
 }
 .othertitle{
+  margin-top : 3rem;
   margin-left: 1rem;
   font-weight:400; 
   font-size:x-large;
@@ -180,4 +181,32 @@ il{
 }
 i{
   margin-left: 0.5rem;
+}
+.orderform{
+  margin : 1rem 0 1rem 4rem; 
+  display: block; 
+}
+.inputbar{
+  display: block; 
+  height:2rem; 
+  width: 50%; 
+}
+.buttonstyle{
+  background-color: #90CBFB;
+  color : white;
+  width:8%;
+  height: 3rem; 
+  margin-top : 2rem; 
+  border-radius: 50%;
+  border: 2px;
+  margin-left : 23rem; 
+}
+.buttonstyle:hover{ 
+  background-color: white; 
+  color: #90CBFB;
+}
+#additional-info {
+  font-family: 'Maven Pro';
+  font-size:smaller; 
+  height: 3rem; 
 }
