@@ -32,7 +32,7 @@
 nav {
   width: 100%;
   height: 2rem;
-  background-color: white;
+  background-color: #90CBFB;
   position :fixed;
   top :0;
 }
@@ -40,7 +40,6 @@ nav {
   list-style-type:none;
   padding:0;
   margin: 0; 
-  border-bottom:1px solid #110066 ;
 }
  .navigationlistformat{
   width : 7%; 
@@ -48,17 +47,30 @@ nav {
   margin : 0.25rem 0 0.3rem 1rem; 
   display :inline-block;
 }
-.navigationbuttonformat,.textcolor{
+.navigationbuttonformat{
     font-weight: normal;
-    color : #110066;
+    color : white;
     text-decoration : none;
     display : block; 
-    padding : 0.2rem; 
+    height: 2.1rem;
+    margin-top : -5px; 
+    padding-top : 6px; 
 }
-.navigationbuttonformat:hover,.textcolor:hover{ 
+.textcolor{
+  font-weight: normal;
+  color : #90CBFB;
+  text-decoration : none;
+  display : block; 
+  padding: 0.3rem;
+}
+.navigationbuttonformat:hover{ 
+  background-color: white;
   color: #90CBFB; 
 }
-
+.textcolor:hover{ 
+  background-color: #90CBFB;
+  color:white; 
+}
 body {
   background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
   font-family:'Maven Pro';
@@ -67,7 +79,7 @@ body {
 
 .card {
   align-items: center;
-  background-color: #C4EAF2;
+  background-color: #F2F2F2;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -100,9 +112,8 @@ body {
 
 .block{
   margin-left : 0; 
- width : 2%; 
- text-align : center;
- margin-bottom : 0.3rem;
+ width : 3%; 
+ margin-bottom : 1rem;
  display :inline-block;
 }
 
@@ -191,17 +202,16 @@ i{
   height:2rem; 
   width: 50%; 
 }
-.buttonstyle{
+.buttonstyle,.prev,.next{
   background-color: #90CBFB;
   color : white;
-  width:8%;
+  width:7%;
   height: 3rem; 
-  margin-top : 2rem; 
+  margin : 1rem -2rem 1rem 3rem; 
   border-radius: 50%;
   border: 2px;
-  margin-left : 23rem; 
 }
-.buttonstyle:hover{ 
+.buttonstyle:hover,.prev:hover,.next:hover{ 
   background-color: white; 
   color: #90CBFB;
 }
@@ -209,4 +219,7 @@ i{
   font-family: 'Maven Pro';
   font-size:smaller; 
   height: 3rem; 
+}
+#google-map{
+  margin-left:2rem; 
 }

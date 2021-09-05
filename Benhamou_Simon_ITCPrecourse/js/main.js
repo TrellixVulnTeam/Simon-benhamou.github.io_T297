@@ -11,3 +11,4 @@ fetch(GITHUB_URL)
     const profileName = document.querySelector('#myName');
     profileName.innerHTML= data.name;
   });
+  
