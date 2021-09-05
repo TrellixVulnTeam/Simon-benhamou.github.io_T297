@@ -223,3 +223,18 @@ i{
 #google-map{
   margin-left:2rem; 
 }
+.footer{
+  background-color: #F2F2F2;
+}
+.footerlist{
+  padding-top: 0.5rem;
+  list-style-type:none;
+  font-style:normal;
+  text-decoration: none;
+  color:black;
+  font-size: small;
+}
+#used-language{
+  font-style:italic;
+  font-size:x-small;
+}
