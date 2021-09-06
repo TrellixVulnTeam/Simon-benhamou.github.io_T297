@@ -120,7 +120,7 @@ body {
 
 il{
   display: block;
-  font-size: 1rem ;
+  font-size: 15px ;
   margin-bottom: 1rem;
 }
 .titlecenter{
@@ -129,7 +129,7 @@ il{
  font-weight:400; 
 }
 .othertitle{
-  margin-top : 3rem;
+  margin-top : 2rem;
   margin-left: 1rem;
   font-weight:400; 
   font-size:x-large;
@@ -188,7 +188,7 @@ il{
 }
 .description{
   text-align: left;
-  font-size: 0.9rem;
+  font-size: 13px;
   width: 50%;
 }
 i{
