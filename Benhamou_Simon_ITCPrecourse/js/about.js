@@ -1,5 +1,6 @@
 const currentmap = document.querySelector('#google-map');
 let count = 0; 
+
 function prev()
 {
     var previous = document.getElementById("prev");
@@ -20,8 +21,6 @@ function prev()
             previous.classList.add('disabledbutton');
             previous.classList.remove('active');
 
-            next.disabled = false;
-
             }
 }
 
@@ -40,9 +39,7 @@ function next()
         count++;
         mapdisplay(count);
         if(count === 2)
-        {
-            previous.disabled = false;
-            
+        {            
             next.disabled = true;
             next.classList.remove('active');
             next.classList.add("disabledbutton");
