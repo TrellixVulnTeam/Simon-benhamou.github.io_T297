@@ -114,7 +114,7 @@ il{
  font-weight:400; 
 }
 .othertitle{
-  margin-top : 2rem;
+  margin-top : 3rem;
   margin-left: 1rem;
   font-weight:400; 
   font-size:x-large;
@@ -227,7 +227,7 @@ i{
 #used-language{
   font-style:italic;
   font-size:x-small;
-  padding-bottom: 1rem;
+  padding: 0rem  2rem 1rem 0rem;
   text-align: right;
 }
 .disabledbutton{
@@ -240,6 +240,7 @@ i{
   border: 2px;
 }
 .positiontag{
+  padding: 0rem  2rem 0rem 0rem;
   text-align:right;
 }
 
