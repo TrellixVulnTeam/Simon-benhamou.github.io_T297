@@ -12,7 +12,6 @@ fetch(GITHUB_URL)
     profileName.innerHTML= data.name;
   
   });
-  
 var button = document.getElementById("submit");
 var Firstname= document.getElementById("fname");
 var Lastname= document.getElementById("lname");

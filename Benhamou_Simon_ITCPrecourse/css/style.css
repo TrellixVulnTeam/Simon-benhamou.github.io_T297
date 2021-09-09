@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 /* vietnamese */
 @font-face {
   font-family: 'Maven Pro';
@@ -172,9 +170,9 @@ il{
   padding: 15px 10px 5px 10px;
 }
 .description{
-  text-align: left;
   font-size: 13px;
   width: 50%;
+  padding-left:2rem; 
 }
 i{
   margin-left: 0.5rem;
@@ -214,12 +212,10 @@ i{
   background-color: #F2F2F2;
   width :102%; 
   margin-left:-0.5rem;
-  display:inline-block;
 }
 .footerlist{
   padding-top: 0.5rem;
   list-style-type:none;
-  font-style:normal;
   text-decoration: none;
   color:black;
   font-size: small;
