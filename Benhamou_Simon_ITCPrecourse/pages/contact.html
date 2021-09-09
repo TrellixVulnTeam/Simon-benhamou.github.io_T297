@@ -16,11 +16,11 @@
     <form action="https://formspree.io/f/mrgrrykb"  method="POST">
 
     <div class="orderform">
-    <input class="inputbar"type="text" id="fname"  name ="firstname"placeholder="First name" required></div> 
+    <input class="inputbar"type="text" id="fname"  name ="firstname"placeholder="First name" onclick= required></div> 
     <div class="orderform">
      <input class="inputbar"type="text" id="lname" name ="lastname"placeholder="Last name"required></div> 
     <div class="orderform">
-    <input class="inputbar" type="email" placeholder="Email @"name ="email"required>
+    <input class="inputbar" id="email" type="email" placeholder="Email @"name ="email"required>
     </div>
 
     <div class="orderform">
@@ -30,7 +30,7 @@
     <div class="orderform">
     <textarea  class="inputbar" id ="additional-info" placeholder="Additional information" type="message"name ="additional-info"></textarea>
     </div>
-    <button class="active"type="submit">Submit</button>
+    <button id="submit" class="disabledbutton"type="submit">Submit</button>
 </form>
     </body>
     <footer class ="footer" >
@@ -39,8 +39,8 @@
         <li  class="footerlist" ><a class="footerlist" href="../pages/about.html">About</a></li>
         <li class="footerlist" ><a class="footerlist" href="../pages/contact.html">Contact</a></li>
         </ul>
-     <div>&#169; Israel Tech Challenge</div>
+     <div class="positiontag">&#169; Israel Tech Challenge</div>
      <p id="used-language">This website has been created with : </p>
-     <script src="../js/main.js"></script>
+     <script src="../js/footer.js"></script>
     </footer>
 </html>
