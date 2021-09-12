@@ -3,7 +3,7 @@ function mapdisplay(count)
     if (count === 0)
     {
     currentmap.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0586958356093!2d4.8905403509434375!3d45.770013920903985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c03799618dcb%3A0xdeb5738de3f29555!2s168%20Rue%20de%20Ch%C3%A2teau%20Gaillard%2C%2069100%20Villeurbanne%2C%20France!5e0!3m2!1sfr!2sil!4v1630575310352!5m2!1sfr!2sil";
-    document.getElementById("location-description").innerHTML = "I lived at this address for 19 years. Recently my parents sold this house to make Alyah.";
+    document.getElementById("location-description").innerHTML = "This is the location of my former home in Lyon, France. I lived at this address for 19 years. Recently my parents sold this house to make Alyah.";
 
     }
     else if (count === 1)
