@@ -1,4 +1,3 @@
-const currentmap = document.querySelector('#google-map');
 let count = 0; 
 
 function prev()

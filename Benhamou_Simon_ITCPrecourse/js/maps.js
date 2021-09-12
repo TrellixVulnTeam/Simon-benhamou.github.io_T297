@@ -1,3 +1,4 @@
+const currentmap = document.querySelector('#google-map');
 function mapdisplay(count)
 {
     if (count === 0)
