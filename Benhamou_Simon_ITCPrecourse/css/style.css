@@ -150,6 +150,7 @@ li{
   backface-visibility: hidden;
   transform: rotateX(0deg);
   transition: 0.5s;
+  padding: 15px 10px 5px 10px;
 }
 
 .card-back {
@@ -158,6 +159,7 @@ li{
   width: 180px;
   margin-top:-100%;
   position: relative;
+  background-position: 50% 50%;
   background-color: white;
   backface-visibility: hidden;
   transform: rotateX(180deg);
