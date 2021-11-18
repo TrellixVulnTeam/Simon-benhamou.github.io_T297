@@ -1,3 +1,3 @@
-# Use this Following link to run the app 
-Netlify Link = https://smart-notes-simon.netlify.app/
+# Stock Exchange website - HTML JS CSS 
+use this link to access it :  Link = https://simon-benhamou.github.io/stock_Exchange/index.html
 
