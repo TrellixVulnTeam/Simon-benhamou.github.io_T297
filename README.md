@@ -1,4 +1,4 @@
-# Thanks for stoping by my GitHub profile 
+# Thanks for stopping by my GitHub profile 
 
 1- Resume Website - The first project I have done(pre assignement to join ITC) was about coding a website about me !
 Please visite the website at this following link : https://simon-benhamou.github.io/Resume_Website/index.html
