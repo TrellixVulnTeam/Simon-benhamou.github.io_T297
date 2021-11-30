@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tweetForm{
+  background-color:#15202B ;
+  color: white;
+  border-radius: 2%;
+    margin-left:4.5rem;
+      margin-top:1rem;
+      padding:1rem
+}
+.tweetButton {
+   position: relative;
+    right:7%;
+    margin-bottom:3rem;
+}
+.alertText{
+  width:23%;
+  margin:0rem;
+  padding:0rem;
+  position:absolute;
+  text-align:left;
+  left:35%;
+  margin-top:-4.5rem;
+}
+.card-tweet{
+    width:30rem;
+    display:flex;
+    text-align:left;
+    border:1px;
+}
+.card-tweet-header {
+    display:flex;
+    color:silver;
+    font-size:12px;
+    margin:0rem;
+}
+.tweet-date{
+  display:flex;
+  justify-content:right;
+  color:silver;
+  font-size:10px;
+  width:100%;
+}
+.signinGoogle {
+margin-top: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 40%;
+background-color: aliceblue;
+color: black;
+}
+.registerLink{
+    color:white;
+    font-size: 12px;
+    position:relative;
+    top:10%;
+    left:1%;
+
+}
+.registerLink:hover{
+  color:blue;
+}
+.profile-pic{
+  position: absolute;
+  left:10%;
+  top: 20%;
+  border-radius: 50%;
+  max-width:150px ;
+  max-height:100px ;
+
+}
+.details{
+  position: absolute;
+  left:15%;
+  top: 22%;
+  font-weight: 10px;
+  font-size: 15px;
+}
+.button-profile-pic{
+  position: absolute;
+  left:10%;
+  top: 35%;
+ border: 1px; 
+ border-radius: 5%;
+}
+.button-profile-pic:hover{
+  background-color: grey;
+}
+.button-save-server{
+  position: absolute;
+  left:7%;
+  top: 35.3%;
+ border: 1px; 
+ border-radius: 5%;
+}
+.home-profile-image{
+   border-radius: 50%;
+  max-width:50px ;
+  max-height:50px ;
+}

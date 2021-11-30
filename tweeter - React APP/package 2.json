@@ -1,0 +1,23 @@
+{
+  "name": "react-project-2-simon-benhamou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israeltechchallenge/react-project-2-Simon-benhamou.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israeltechchallenge/react-project-2-Simon-benhamou/issues"
+  },
+  "homepage": "https://github.com/israeltechchallenge/react-project-2-Simon-benhamou#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "react-bootstrap": "^2.0.2"
+  }
+}
