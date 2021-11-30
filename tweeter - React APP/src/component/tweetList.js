@@ -50,11 +50,9 @@ export default function TweetList() {
         if(sort === true){
             return  setSort(false)
         }
-        console.log(user.email)
         const result=  databaseTweets.filter((tweet) => tweet.userName === user.displayName || tweet.userName === user.email )
         setSortedArray(result)
         setSort(true)
-        console.log(result,"sorted",databaseTweets)
     }
 
     return (
