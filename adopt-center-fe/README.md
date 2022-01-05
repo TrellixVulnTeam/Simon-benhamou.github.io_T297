@@ -2,3 +2,6 @@
 Adopt-center : I used MONGODB as database, nodejs for my backend with jwt for login,cloudinary for images. 
 In my front, I have done a react app and used mainly bootstrap for styling. 
 
+for admin access : 
+admin@gmail.com
+12345678

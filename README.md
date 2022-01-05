@@ -13,5 +13,8 @@ link :  https://tweeter-simon.netlify.app/
 In my front, I have done a react app and used mainly bootstrap for styling. 
 
 Link https://adopt-center.netlify.app/ 
+for admin access : 
+admin@gmail.com
+12345678
 
 
