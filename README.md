@@ -18,3 +18,5 @@ admin@gmail.com
 12345678
 
 
+5 - angular app - nft platform
+deploy in firebase https://nft-platform-79b30.web.app/
