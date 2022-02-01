@@ -1,0 +1,39 @@
+<h4 class="container m-4"> <strong>Create</strong> your own NFT</h4>
+<div class="d-flex justify-content-center m-5">
+    <mat-card class="m-2 p-5 formArea" >
+        <mat-form-field class="m-3" appearance="legacy">
+        <mat-label >Title</mat-label>
+        <input (change)="changeHandler()" matInput #title >
+        </mat-form-field >
+        <mat-form-field class="m-3" appearance="legacy">
+            <mat-label>Category</mat-label>
+            <select (change)="changeHandler()" aria-placeholder="category" #category matNativeControl>
+                <option value="" selected disabled hidden>select a category</option>
+                <option value="Art">Art</option>
+                <option value="Land">Land</option>
+                <option value="Crypto fash">Crypto fash</option>
+            </select>
+        </mat-form-field>
+        <div >
+            <mat-form-field class="m-3" appearance="legacy">
+                <mat-label>description</mat-label>
+                <textarea  (change)="changeHandler()"  matInput #description></textarea>           
+            </mat-form-field>
+            <input   class="file" type="file"  id="uploadFile" (change)="uploadFileEvt($event)" name="uploadFile" 
+                accept="image/*" />
+        </div>
+        <span type="button" (click)="create()" class="details m-2"> Create</span>
+        <span *ngIf="success" class="alert alert-success">Successfully upload</span>
+        <span *ngIf="error" class="alert alert-danger">Failed to upload</span>
+    </mat-card>
+    <div *ngIf="access" class="col preview">
+        <mat-card class=" m-3" style="width: 18rem;">
+            <img [src]="previewUrl" class="card-img-top" alt="nft-picture">
+            <div class="card-body">
+                <h5 class="card-title">{{nftTitle}} ({{nftCategory}})</h5>
+                <p class="card-text limit">{{nftDescription}}</p>
+                <a type="button" class="details">details</a>
+            </div>
+        </mat-card>
+    </div>
+</div>
