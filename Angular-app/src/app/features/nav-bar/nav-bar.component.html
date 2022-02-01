@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand m-3" href="/nft-list">NFT - platform</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link" href="/nft-list">All NFTs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled"  href="/create">Create</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="/generate">Generate</a>
+        </li>
+            </ul>
+       </div>
+
+        <section>
+            <img class="rounded-circle profile" [src]="photo" />
+            <mat-form-field appearance="legacy">
+                <mat-label>{{name}}</mat-label>
+                <mat-select >
+                    <mat-option type="button" (click)="logOut()" >
+                        Log out
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </section>
+
+    </div>
+</nav>

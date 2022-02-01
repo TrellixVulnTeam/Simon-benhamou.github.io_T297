@@ -1,0 +1,5 @@
+.App {
+  text-align: stretch;
+  display: flex;
+  flex-wrap: wrap;
+}

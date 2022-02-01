@@ -1,0 +1,10 @@
+<div class="col">
+    <div class="card m-3" style="width: 18rem;">
+        <img [src]="oneItem.image" class="card-img-top" alt="nft-picture">
+        <div class="card-body">
+            <h5 class="card-title">{{oneItem.title}}</h5>
+            <p class="card-text limit">{{oneItem.description}}</p>
+            <a type="button" (click)="redirect()" class="details">Details</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="background">
+    <mat-card class="card-style">
+        <h2 class="d-flex justify-content-center m-3">Sign up</h2>
+        
+        <div class="d-flex justify-content-center m-2">
+            <mat-form-field appearance="legacy">
+                <mat-label>Enter your email</mat-label>
+                <input matInput #emailInput placeholder="pat@example.com" fxFlex="50" [formControl]="email" required>
+            </mat-form-field>
+            <mat-form-field appearance="legacy">
+                <mat-label>Enter your password</mat-label>
+                <input matInput #passwordInput [type]="hide ? 'password' : 'text'">
+            </mat-form-field>
+        </div>
+        <div class="d-flex justify-content-center m-2">
+            <button (click)="signUpHandler()" type="button" class="button-17"> SIGN UP</button>
+        </div>
+        <span (click)="redirect()" class="signup">Login</span>
+    </mat-card>
+
+</div>
